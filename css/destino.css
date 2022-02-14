@@ -1,4 +1,123 @@
 /* Esto es un comentario de bloque en CSS PURO */
+nav ul {
+  list-style-type: none;
+  display: none; }
+  nav ul a {
+    display: block;
+    background-color: darkred;
+    padding: 20px;
+    font-size: 17px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #ece4e4;
+    transition: color 2s ease,background 2s ease,padding 2s ease; }
+    nav ul a:hover {
+      background: #474747;
+      color: #e0e0ce;
+      padding-left: 30px; }
+
+.nav-container img {
+  width: 100px;
+  align-self: center; }
+
+.nav-container {
+  padding: 0 20px;
+  background: #0d1317;
+  border-bottom: 3px solid #070707;
+  display: flex;
+  justify-content: space-between; }
+
+.bar {
+  width: 30px;
+  height: 3px;
+  margin: 7px;
+  background: #c0adad; }
+
+.btn {
+  padding: 2px;
+  display: inline-block;
+  border: 2px solid #b89d9d;
+  align-self: center; }
+
+header {
+  min-height: 100vh;
+  background: brown; }
+
+footer {
+  background: #0d1317;
+  padding: 60px 0;
+  text-align: center; }
+  footer p {
+    color: #f5f3f5;
+    font-size: 20px; }
+
+nav {
+  flex: 0 0 auto; }
+
+.banner {
+  flex: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: url("/mi-repositorio/imgs/hellboy.jpg");
+  background-repeat: no-repeat; }
+
+.banner-center {
+  margin-top: 700px; }
+
+.banner h1 {
+  font-family: "Bangers", sans-serif;
+  font-size: 88px;
+  text-transform: uppercase;
+  color: #fff; }
+
+.banner h3 {
+  text-transform: capitalize;
+  font-size: 20px;
+  color: #fff; }
+
+.banner-icons {
+  padding: 0px; }
+  .banner-icons a {
+    display: inline-block;
+    font-size: 30px;
+    padding: 5px 10px;
+    margin: 10px;
+    border-radius: 50%;
+    color: seagreen;
+    transition: color 1s ease, transform 1s ease; }
+    .banner-icons a:hover {
+      color: #eef8f2;
+      transform: translateY(-10px); }
+
+nav {
+  position: fixed;
+  width: 100%;
+  z-index: 10; }
+
+@media screen and (min-width: 776px) {
+  .nav-container {
+    display: none; }
+  nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background: rgba(13, 19, 23, 0.8); }
+    nav ul a {
+      background: transparent; }
+      nav ul a:hover {
+        background: transparent;
+        padding-left: 20px; } }
+
+/* MOBILE FIRST */
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  font-family: "Lato", sans-serif; }
+
 .logo {
   border: 1px #fff;
   animation: shake 0.5s;

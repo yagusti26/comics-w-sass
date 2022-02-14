@@ -2,10 +2,23 @@
 /* Esto es un comentario de bloque en CSS PURO */
 
 // IMPORT (se ponen al inicio)
-
+@import "./components";
+@import "./layout";
+@import "./media";
 
 // VARIABLES
 $myColor: #fff;
+
+
+/* MOBILE FIRST */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Lato", sans-serif;
+}
 
 // LOGO
 .logo {
