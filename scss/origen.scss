@@ -2,9 +2,7 @@
 /* Esto es un comentario de bloque en CSS PURO */
 
 // IMPORT (se ponen al inicio)
-@import "/mi-repositorio/scss/layout";
-@import "/mi-repositorio/scss/components";
-@import "/mi-repositorio/scss/media";
+
 
 // VARIABLES
 $myColor: #fff;
@@ -34,7 +32,7 @@ $myColor: #fff;
   // SERVICES
   .services {
     min-height: 80vh;
-    background: url("/imgs/hell.jpeg")center/cover fixed no-repeat;
+    background: url("/mi-repositorio/imgs/hell.jpeg")center/cover fixed no-repeat;
     display: flex;
     align-items: center;
 }
