@@ -1,0 +1,35 @@
+/* TABLETS */
+@media screen and (min-width:776px) {
+    .nav-container {
+        display: none;
+    }
+
+    nav {
+        ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        background: rgba(13, 19, 23, 0.8);
+    
+            a {
+            background: transparent;
+                &:hover {
+                background: transparent;
+                padding-left: 20px;
+                }
+            }
+        }
+    }
+
+
+    /* quienes somos */
+    .about-card {
+        max-width: 50%;
+        border-radius: 30px;
+    
+        p {
+        max-width: 70%;
+        margin: 0 auto;
+        }
+    }
+}
